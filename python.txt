@@ -1,0 +1,8 @@
+animals = ["Lion", "Tiger", "Dogs", "Cows", "Cats"]
+for x in animals:
+  print(x, end=" ")
+
+animals.append("Goat")    # Add new element at the end
+print("\n")
+for x in animals:
+  print(x, end=" ")
